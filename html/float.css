@@ -1,0 +1,90 @@
+.clearfix::after{
+	content:'';
+	display:block;
+	clear:both;
+}
+img{
+	float: left;
+	width: 80px;
+}
+
+.ct{
+	width: 250px;
+	height: 300px;
+	border: 1px solid;
+	margin: 50px;
+}
+.box{
+	background:red;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.box1{
+	background:red;
+	height: 130px;
+}
+.box2{
+	background:pink;
+	height: 120px;
+}
+.box3{
+	background:yellow;
+}
+.box4{
+	float: left;
+	background: purple;
+	width: 100px;
+	height: 100px;
+}
+.box5{
+	background: pink;
+	width: 120px;
+	height: 110px;
+}
+
+.menu{
+	width: 200px;
+	height: 400px;
+	float: left;
+	background: yellow;
+}
+.main{
+	height: 300px;
+	margin-left:210px ;
+	margin-right: 210px;
+	background: blue;
+}
+.aside{
+	width: 200px;
+	height: 400px;
+	float: right;
+	background: yellow;
+	}
+.footer{
+	background: pink;
+	}
+.navbar{
+	list-style: none;
+	border: 1px solid ;
+}
+ul>li{
+	float:left ;
+	margin: 20px;
+}
+.navbar .clear{
+	float:none;
+	clear: left;
+	
+}
+
+.box6,.box7{
+  width: 50px;
+  height: 50px;
+  border: 2px solid;
+}
+.box7{
+	position: relative;
+	top: 10px;
+	left:10px;
+}

@@ -1,0 +1,92 @@
+body {
+	font-size:16px ;
+	font-family: Microsoft YaHei;
+	color: #3e3e3e;
+  background: #fafafa;
+	margin: 0px;
+	padding: 0px;
+}
+div,ul,li,{
+	margin: 0px;
+	padding: 0px;
+}
+li {
+  list-style: none;
+	color: #3e3e3e;
+}
+a {
+	text-decoration: none;
+	color: #3e3e3e;
+	padding: 12px 15px;
+}
+nav { 
+	clear: both;
+}
+.nheader {
+	height:60px;
+	padding: 4px;
+}	
+.nheader img{
+	height: 40px;
+	margin-top: 5px;
+	float: left;
+}
+.tips{
+	font-weight: bold;
+}
+/* .textshow {
+	float: left;
+	height: 60px;
+	padding-left: 45px;
+	color: #333;
+	display: inline-block;
+	background-image: url(https://active.clewm.net/FCyx1q?qrurl=http://qr17.cn/FCyx1q&gtype=1&key=579cd15c37c534cd5561570d3fb015c26ae8b60745);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	background-size: 24px 20px;
+	margin-right: 10px;
+	padding-right: 10px;
+} */
+.notice img {
+	float: left;
+	width: 30px;
+	height: 30px;
+	padding-left: 20px;
+	margin: 10px 20px;
+	margin-right: 5px;
+	border-left: 2px solid #ccc;
+}
+.nheader p{
+	float: left;
+}
+.navbar {
+	height: 60px;
+	overflow: hidden;
+	clear: both;
+	white-space: nowrap;
+	width: 1180px;
+}
+.bar-in {
+	border-top: 2px solid #ccc;
+	
+	margin: 0px;
+}
+.bar-in li {
+	float: left;
+	display: inline-block;
+	padding-top:13px;
+
+}
+.bar-in a:hover{
+	border-top: 3px solid red;
+}
+.label {
+	display: none;
+}
+.bar-in>.label>li:hover .child{
+	display: block;
+}
+marquee img {
+	width: 1000px;
+	height: 230px;
+}

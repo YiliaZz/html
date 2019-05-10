@@ -1,0 +1,41 @@
+.card{
+	width: 200px;
+	border: 1px solid #ccc;
+	font-size:12px;
+	margin: 0 auto;
+}
+
+.card>img{
+	width: 200px;
+}
+
+.card>h3{
+	padding: 0 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.card>h3>a{
+	text-decoration: none;
+	color: #333;
+}
+
+.card>p{
+	padding: 8px 10px;
+	color: #666;
+}
+#box{
+	font-size:50px;
+}
+#box p{
+	font-size: 1em;
+}
+
+#box{
+	color: red;
+}
+#box a{
+	text-decoration: none;
+	color: yellow;
+}
